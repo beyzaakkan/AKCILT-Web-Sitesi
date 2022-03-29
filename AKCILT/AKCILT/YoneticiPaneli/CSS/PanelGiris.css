@@ -1,0 +1,79 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #5B2C5C;
+    font-family: Calibri;
+    background-image: url('../İmages/panelbackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.FormTasiyici {
+    width: 450px;
+    min-height: 300px;
+    background-color:white;
+    border-radius: 30px;
+    margin: 0px auto;
+    margin-top: 250px;
+}
+
+.FormBaslik 
+{
+    border-bottom: 1px solid silver;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+.MetinKutu {
+    width: 300px;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6C406C;
+}
+
+    .MetinKutu:focus {
+        outline: 1px solid #6C406C;
+    }
+
+.IcerikTasiyici {
+    padding: 20px;
+}
+
+.HataMesaji {
+    background-color: #fbbcbc;
+    color: darkred;
+    border: 1px solid darkred;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.Buton {
+    border: 1px solid #6C406C;
+    border-radius: 10px;
+    background-color: white;
+    color: #3d3c3c;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+    .Buton:hover {
+        background-color: #f4f1f1;
+    }
+
+
+.FormBaslik img {
+    width: 100px;
+}

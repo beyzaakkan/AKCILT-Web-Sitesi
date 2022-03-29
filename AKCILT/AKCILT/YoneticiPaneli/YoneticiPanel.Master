@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="YoneticiPanel.master.cs" Inherits="AKCILT.YoneticiPaneli.YoneticiPanel" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>AKCILT Yönetim Paneli</title>
+    <link href="CSS/AdminLayout.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <div class="UstMenu">
+                    <img src="İmages/mainlogo.png" />
+                    <div class="LogoYazi">
+                        <h3>AKCILT Yönetim Paneli</h3>
+                    </div>
+                    <div class="Kullanici">
+                        <asp:Label ID="lbl_kullanici" runat="server" Style="margin-right: 20px;"></asp:Label>
+                        <asp:LinkButton ID="lbtn_cikisYap" runat="server" OnClick="lbtn_cikisYap_Click">Çıkış Yap</asp:LinkButton>
+                    </div>
+                </div>
+                <div>
+                    <div class="YanMenu">
+                        <ul class="MenuIcerik">
+                            <a href="Default.aspx">
+                                <li>Anasayfa</li>
+                            </a>
+                            <a href="Kategoriler.aspx">
+                                <li>Kategoriler</li>
+                            </a>
+                            <a href="KategoriEkle.aspx">
+                                <li>Kategori Ekle</li>
+                            </a>
+
+                            <a href="YaziListele.aspx">
+                                <li>Yazılar</li>
+                            </a>
+                            <a href="IcerikEkle.aspx">
+                                <li>Yazı Ekle</li>
+                            </a>
+                            <a href="YorumListele.aspx">
+                                <li>Yorumlar</li>
+                            </a>
+                            <a href="Uyeler.aspx">
+                                <li>Üyeler</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="Icerik">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+    <script src="ckeditor/ckeditor.js"></script>
+    <script>
+         CKEDITOR.replace('ContentPlaceHolder1_tb_icerik');
+    </script>
+</body>
+</html>

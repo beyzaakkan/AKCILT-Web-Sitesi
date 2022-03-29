@@ -1,0 +1,83 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.UstMenu {
+    height: 100px;
+    border-bottom-right-radius:20px;
+    background-image: url('../İmages/ustmenu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.UstMenu img
+{
+    width:70px;
+    float:left;
+    margin-top:15px;
+    margin-left:20px;
+}
+
+.LogoYazi 
+{
+    margin-top:40px;
+    margin-left:15px;
+    color: #6C406C;
+    float: left;
+}
+
+.Kullanici {
+    margin-top:40px;
+    margin-right:30px;
+    color: white;
+    float: right;
+}
+
+    .Kullanici a {
+        color: white;
+        text-decoration: none;
+    }
+
+.YanMenu {
+    width: 275px;
+    height: 780px;
+    border-bottom-right-radius:20px;
+    background-image: url('../İmages/ustmenu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    float: left;
+}
+
+.MenuIcerik {
+    list-style-type: none;
+}
+
+    .MenuIcerik a {
+        color: #6C406C;
+        text-decoration: none;
+    }
+
+        .MenuIcerik a li {
+            padding: 15px;
+            padding-left: 20px;
+            border-bottom: 1px solid silver;
+        }
+
+        .MenuIcerik a:hover li {
+            background-color: #F0EEEE;
+        }
+
+.Icerik 
+{
+    width: 75%;
+    float: left;
+    padding: 25px;
+}

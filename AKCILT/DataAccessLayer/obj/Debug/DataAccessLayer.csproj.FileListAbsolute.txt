@@ -1,0 +1,6 @@
+C:\Users\Beyza\source\repos\AKCILT\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Beyza\source\repos\AKCILT\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Beyza\source\repos\AKCILT\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Beyza\source\repos\AKCILT\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Beyza\source\repos\AKCILT\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Beyza\source\repos\AKCILT\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
